@@ -1,0 +1,20 @@
+{
+  "name": "rxevents",
+  "version": "1.0.0",
+  "description": "Custom events and Rxjs in Typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "events": "node ./dist/event-test.js",
+    "selector": "node ./dist/selector-test.js"
+  },
+  "author": "loopilla@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.5.6",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "rxjs": "^6.2.2"
+  }
+}
